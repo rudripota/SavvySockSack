@@ -31,3 +31,14 @@ went home
 created an about us page
 added css
 uploaded it all to github
+
+0723
+created a new controller, named it hello socks for humor reasons
+
+0727
+created a new view 
+error: forgot to make a separate folder for it!
+corrected it now
+
+07436
+linked it to the main header
