@@ -26,3 +26,8 @@ solution: added in-file css by using <style>
 it worked, looks adorable!
 made a repo and added the code there
 went home
+
+2023-10-11 0707
+created an about us page
+added css
+uploaded it all to github
