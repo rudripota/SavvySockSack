@@ -242,3 +242,14 @@ IT STILL WORKS WOOHOOOO!
 
 0331
 successfuly added a search field form, might add search by size later depending on the time and energy
+
+0436
+added a field
+was confused about what dattype to add for ratings
+searched google and double worked out
+source: https://www.w3schools.com/sql/sql_datatypes.asp
+remebered to delete the data from everywhere
+ERRORRRR
+Soultion: was very smart and forgot to initialise migration for rating and to update the database
+works now
+edit did not work, realized I never added a field for rating in edit from crud pages

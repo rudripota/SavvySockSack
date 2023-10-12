@@ -10,6 +10,7 @@ namespace SavvySockSack.Models
         public string Size { get; set; }
         public string Material { get; set; }
         public string Pattern { get; set; }
-        public decimal Price { get; set; }
+        public double Price { get; set; }
+        public double Rating { get; set; }
     }
 }
