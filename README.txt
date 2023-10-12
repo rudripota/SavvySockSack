@@ -231,3 +231,14 @@ tried and ran
 added search facility
 button yet to add
 everything runs
+
+0258
+cloned the repo on a different computer
+cleaned the sln
+rebuilt the solution
+reinstalled nuget packages
+hoping the database still works
+IT STILL WORKS WOOHOOOO!
+
+0331
+successfuly added a search field form, might add search by size later depending on the time and energy
