@@ -166,3 +166,51 @@ completed the next steps, everything got a little messy
 browser runs
 no compile time errors
 pushing this code before starting migration so if something goes wrong I will hop onto the next computer
+
+SavvySockSack
+
+Uninstalling:
+
+Microsoft.IdentityModel.JsonWebTokens.5.5.0
+Microsoft.IdentityModel.Logging.5.5.0
+Microsoft.IdentityModel.Protocols.5.5.0
+Microsoft.IdentityModel.Protocols.OpenIdConnect.5.5.0
+Microsoft.IdentityModel.Tokens.5.5.0
+Newtonsoft.Json.10.0.1
+System.Dynamic.Runtime.4.3.0
+System.IdentityModel.Tokens.Jwt.5.5.0
+System.Linq.Expressions.4.3.0
+System.ObjectModel.4.3.0
+System.Runtime.Numerics.4.3.0
+System.Security.Cryptography.Cng.4.5.0
+
+Updates:
+
+Microsoft.Bcl.AsyncInterfaces.1.1.1 -> Microsoft.Bcl.AsyncInterfaces.1.1.0
+Microsoft.Bcl.HashCode.1.1.1 -> Microsoft.Bcl.HashCode.1.1.0
+Microsoft.Data.SqlClient.1.1.3 -> Microsoft.Data.SqlClient.1.0.19269.1
+Microsoft.EntityFrameworkCore.3.1.11 -> Microsoft.EntityFrameworkCore.3.1.1
+Microsoft.EntityFrameworkCore.Abstractions.3.1.11 -> Microsoft.EntityFrameworkCore.Abstractions.3.1.1
+Microsoft.EntityFrameworkCore.Analyzers.3.1.11 -> Microsoft.EntityFrameworkCore.Analyzers.3.1.1
+Microsoft.EntityFrameworkCore.Relational.3.1.11 -> Microsoft.EntityFrameworkCore.Relational.3.1.1
+Microsoft.EntityFrameworkCore.SqlServer.3.1.11 -> Microsoft.EntityFrameworkCore.SqlServer.3.1.1
+Microsoft.Extensions.Caching.Abstractions.3.1.11 -> Microsoft.Extensions.Caching.Abstractions.3.1.1
+Microsoft.Extensions.Caching.Memory.3.1.11 -> Microsoft.Extensions.Caching.Memory.3.1.1
+Microsoft.Extensions.Configuration.3.1.11 -> Microsoft.Extensions.Configuration.3.1.1
+Microsoft.Extensions.Configuration.Abstractions.3.1.11 -> Microsoft.Extensions.Configuration.Abstractions.3.1.1
+Microsoft.Extensions.Configuration.Binder.3.1.11 -> Microsoft.Extensions.Configuration.Binder.3.1.1
+Microsoft.Extensions.DependencyInjection.3.1.11 -> Microsoft.Extensions.DependencyInjection.3.1.1
+Microsoft.Extensions.DependencyInjection.Abstractions.3.1.11 -> Microsoft.Extensions.DependencyInjection.Abstractions.3.1.1
+Microsoft.Extensions.Logging.3.1.11 -> Microsoft.Extensions.Logging.3.1.1
+Microsoft.Extensions.Logging.Abstractions.3.1.11 -> Microsoft.Extensions.Logging.Abstractions.3.1.1
+Microsoft.Extensions.Options.3.1.11 -> Microsoft.Extensions.Options.3.1.1
+Microsoft.Extensions.Primitives.3.1.11 -> Microsoft.Extensions.Primitives.3.1.1
+System.Collections.Immutable.1.7.1 -> System.Collections.Immutable.1.7.0
+System.Diagnostics.DiagnosticSource.4.7.1 -> System.Diagnostics.DiagnosticSource.4.7.0
+
+2023-10-12
+1056
+IT WORKED!!!
+error: stupid mistake, I wrote savvy sock sack context instead of mvc socks context in appsettings.json file
+solution: corrected it
+socks was made in view to control crud
