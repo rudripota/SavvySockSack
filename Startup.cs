@@ -26,10 +26,8 @@ namespace SavvySockSack
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<MvcSocksContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MvcSocksContext")));
-
-            services.AddDbContext<SavvySockSackContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("SavvySockSackContext")));
+            services.AddDbContext<MvcSocksContext>(options =>
+             options.UseSqlServer(Configuration.GetConnectionString("MvcSocksContext")));
     }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

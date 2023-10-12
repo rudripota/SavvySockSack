@@ -11,5 +11,6 @@ namespace SavvySockSack.Data
         }
 
         public DbSet<Socks> Socks { get; set; }
+        public object Id { get; internal set; }
     }
 }

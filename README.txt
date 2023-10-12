@@ -214,3 +214,12 @@ IT WORKED!!!
 error: stupid mistake, I wrote savvy sock sack context instead of mvc socks context in appsettings.json file
 solution: corrected it
 socks was made in view to control crud
+
+1135
+too many errors
+many confusions, but finally sorted it out
+changed namespaces a lot of times
+addedsock folder as a controller in _layout
+database created by using:
+Add-Migration InitialCreate (to create)
+Update-Database (to update)

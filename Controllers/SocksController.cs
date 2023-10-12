@@ -12,9 +12,9 @@ namespace SavvySockSack.Controllers
 {
     public class SocksController : Controller
     {
-        private readonly SavvySockSackContext _context;
+        private readonly MvcSocksContext _context;
 
-        public SocksController(SavvySockSackContext context)
+        public SocksController(MvcSocksContext context)
         {
             _context = context;
         }
@@ -54,7 +54,7 @@ namespace SavvySockSack.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Size,Material,Pattern,Price")] Socks socks)
+        public async Task<IActionResult> Create([Bind("Id,Name,Size,Material,Pattern,Price")] MvcSocksContext socks)
         {
             if (ModelState.IsValid)
             {
@@ -86,34 +86,38 @@ namespace SavvySockSack.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Size,Material,Pattern,Price")] Socks socks)
+        /*public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Size,Material,Pattern,Price")] MvcSocksContext socks)
         {
-            if (id != socks.Id)
+            if (id == socks.Id)
             {
-                return NotFound();
+                if (ModelState.IsValid)
+                {
+                    try
+                    {
+                        _context.Update(socks);
+                        await _context.SaveChangesAsync();
+                    }
+                    catch (DbUpdateConcurrencyException)
+                    {
+                        if (!SocksExists(socks.Id))
+                        {
+                            return NotFound();
+                        }
+                        else
+                        {
+                            throw;
+                        }
+                    }
+                    return RedirectToAction(nameof(Index));
+                }
+                return View(socks);
             }
+            return NotFound();
+        }*/
 
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(socks);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!SocksExists(socks.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(socks);
+        private bool SocksExists(object id)
+        {
+            throw new NotImplementedException();
         }
 
         // GET: Socks/Delete/5
