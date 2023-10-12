@@ -20,9 +20,16 @@ namespace SavvySockSack.Controllers
         }
 
         // GET: Socks
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Socks.ToListAsync());
+            var socks = from s in _context.Socks
+                         select s;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                socks = socks.Where(m => m.Name.Contains(searchString));
+            }
+            return View(await socks.ToListAsync());
         }
 
         // GET: Socks/Details/5
