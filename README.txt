@@ -42,3 +42,7 @@ corrected it now
 
 07436
 linked it to the main header
+
+0801
+added properties to my newly built model
+coffee break
