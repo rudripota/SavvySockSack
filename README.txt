@@ -223,3 +223,6 @@ addedsock folder as a controller in _layout
 database created by using:
 Add-Migration InitialCreate (to create)
 Update-Database (to update)
+
+1154
+tried and ran
