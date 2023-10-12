@@ -253,3 +253,14 @@ ERRORRRR
 Soultion: was very smart and forgot to initialise migration for rating and to update the database
 works now
 edit did not work, realized I never added a field for rating in edit from crud pages
+
+0451
+now trying to use css for the data base page!
+works
+now changing privacy page
+Privacy policy template used from https://www.privacypolicytemplate.net/ 
+
+0521
+project is almost completed!
+just a few finishing touches are needed
+going home and completeing those
