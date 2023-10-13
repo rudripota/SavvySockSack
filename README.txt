@@ -1,11 +1,8 @@
 Author: Rudri Pota  
 Student number: 0817379  
-Purpose: Document and review the architecture of a robust MVC web application to generate a product catalogue for a fictional company named Savvy Sock Sack, allowing for CRUD operations. 
-
-  
+Purpose: Document and review the architecture of a robust MVC web application to generate a product catalogue for a fictional company named Savvy Sock Sack, allowing for CRUD operations.  
 
 Started README.txt at 2023-10-10 
-
 
 0707(intentional chose a lucky time!) 
 
@@ -264,3 +261,43 @@ Privacy policy template used from https://www.privacypolicytemplate.net/
 project is almost completed!
 just a few finishing touches are needed
 going home and completeing those
+
+0902
+tried to update database at home to run the program but it showed an error and the program did not run
+it showed brower error
+stressed so quit
+
+2023-10-13 1000
+cleaned and rebuilt the project
+found out that these are the words that amke me the happiest:
+Update-Database
+Build started...
+Build succeeded.
+Done.
+trying to add validation
+
+extra notes from the author:
+this was the third time I rebuilt the project savvy socks
+First time:
+Major error saying
+Tried to create readme.md on github
+Git push failed, unable to push to remote repo because your local branch is behind the remote branch. Update your branch by pulling before pushing. 
+Then saying pull failed. 
+Panicked 
+tried to figure it out but rebuilding the project seemed like the easiest solution
+
+1037
+what it says if the user messes up name field:
+The Name field is required.
+
+what it says if the user messes up material field:
+The field Material must be a string with a minimum length of 3 and a maximum length of 60.
+
+what it says if the user messes up pattern field:
+The field Pattern must be a string with a minimum length of 5 and a maximum length of 50.
+
+what it says if the user messes up price field:
+The field Price must be a number.
+
+what it says if the user messes up rating field:
+The field Rating must match the regular expression '^(0(\.[0-9]+)?|5(\.0+)?)$'.
