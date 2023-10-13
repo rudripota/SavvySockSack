@@ -276,16 +276,6 @@ Build succeeded.
 Done.
 trying to add validation
 
-extra notes from the author:
-this was the third time I rebuilt the project savvy socks
-First time:
-Major error saying
-Tried to create readme.md on github
-Git push failed, unable to push to remote repo because your local branch is behind the remote branch. Update your branch by pulling before pushing. 
-Then saying pull failed. 
-Panicked 
-tried to figure it out but rebuilding the project seemed like the easiest solution
-
 1037
 what it says if the user messes up name field:
 The Name field is required.
@@ -301,3 +291,18 @@ The field Price must be a number.
 
 what it says if the user messes up rating field:
 The field Rating must match the regular expression '^(0(\.[0-9]+)?|5(\.0+)?)$'.
+
+1047
+published the website
+successful project, its been an honour
+
+extra notes from the author:
+this was the third time I rebuilt the project savvy socks
+First time:
+Major error saying
+Tried to create readme.md on github
+Git push failed, unable to push to remote repo because your local branch is behind the remote branch. Update your branch by pulling before pushing. 
+Then saying pull failed. 
+Panicked 
+tried to figure it out but rebuilding the project seemed like the easiest solution
+database would not run on the second time
